@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+.header {
+    background: url(images/main-img.png);
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading {
+    width: 373px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 37px;
+    background-color: #917665;
+    color: #FFF5E7;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 15px 0px;
+    margin-bottom: 15px;
+}
+.subheading {
+    width: 412px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #6D6C6B;
+    color: #FFF5E7;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 40px 0px;
+}
+.activities {
+    width: 720px;
+    height: 343px;
+    color: #1D3557;
+    text-align: center;
+    background-color: #EAE1D9 ;
+    display: flex;
+    align-items: center;
+}
+.activities-img {
+    width: 117px;
+    height: 117px;
+    border-radius: 70px ;
+}
+.activity-heading {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.activity-subheading {
+    font-size: 15px;
+    font-weight: 400;
+}
+.guide-information {
+    width: 720px;
+    height: 394px;
+    color: #FFF5E7;
+    text-align: center;
+    background-color: #A0BDDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ania-card {
+    background-color: #917665;
+    width: 400px;
+    height: 294px;
+    border-radius: 10px;
+    border-bottom: 5px #1D3557 solid;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.ania-img {
+    width: 180px;
+    height: 249px;
+    border-radius: 10px;
+}
+.ania-card-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+.ania-card-info{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+.ania-card-sign{
+    font-size: 16px;
+    font-weight: 700;
+}
